@@ -21,53 +21,53 @@ FoodCal/
 ├── FoodCal.xcodeproj
 ├── FoodCal/
 │   ├── App/
-│   │   └── FoodCalApp.swift              # Entry point của ứng dụng
+│   │   └── FoodCalApp.swift              
 │   │
 │   ├── Models/
-│   │   ├── Food.swift                    # Model thực phẩm
-│   │   ├── Nutrition.swift               # Model thông tin dinh dưỡng
-│   │   ├── FoodHistory.swift             # Model lịch sử
-│   │   └── User.swift                    # Model người dùng
+│   │   ├── Food.swift                    
+│   │   ├── Nutrition.swift               
+│   │   ├── FoodHistory.swift             
+│   │   └── User.swift                   
 │   │
 │   ├── Views/
-│   │   ├── MainTabView.swift             # Tab navigation chính
+│   │   ├── MainTabView.swift             
 │   │   ├── Home/
-│   │   │   └── HomeView.swift            # Màn hình trang chủ
+│   │   │   └── HomeView.swift           
 │   │   ├── Scanner/
-│   │   │   ├── CameraScannerView.swift   # Màn hình quét camera
-│   │   │   └── ScanResultView.swift      # Kết quả quét
+│   │   │   ├── CameraScannerView.swift   
+│   │   │   └── ScanResultView.swift      
 │   │   ├── Profile/
-│   │   │   ├── ProfileView.swift         # Thông tin cá nhân
-│   │   │   └── SettingsView.swift        # Cài đặt ứng dụng
+│   │   │   ├── ProfileView.swift         
+│   │   │   └── SettingsView.swift        
 │   │   └── Components/
-│   │       ├── FoodCard.swift            # Card hiển thị thực phẩm
-│   │       ├── NutritionChart.swift      # Biểu đồ dinh dưỡng
-│   │       └── LoadingView.swift         # Loading indicator
+│   │       ├── FoodCard.swift            
+│   │       ├── NutritionChart.swift      
+│   │       └── LoadingView.swift         
 │   │
 │   ├── ViewModels/
-│   │   ├── HomeViewModel.swift           # Logic màn hình home
-│   │   ├── ScannerViewModel.swift        # Logic xử lý quét
-│   │   └── ProfileViewModel.swift        # Logic profile
+│   │   ├── HomeViewModel.swift           
+│   │   ├── ScannerViewModel.swift        
+│   │   └── ProfileViewModel.swift        
 │   │
 │   ├── Services/
-│   │   ├── NetworkService.swift          # Base networking
-│   │   ├── NutritionAPIService.swift     # API dinh dưỡng
-│   │   ├── CameraService.swift           # Xử lý camera
-│   │   ├── MLService.swift               # Machine Learning service
-│   │   └── DataManager.swift             # Quản lý dữ liệu local
+│   │   ├── NetworkService.swift          
+│   │   ├── NutritionAPIService.swift     
+│   │   ├── CameraService.swift           
+│   │   ├── MLService.swift               
+│   │   └── DataManager.swift            
 │   │
 │   ├── Utils/
-│   │   ├── Constants.swift               # Hằng số ứng dụng
-│   │   ├── Extensions.swift              # Swift extensions
-│   │   └── Helpers.swift                 # Helper functions
+│   │   ├── Constants.swift              
+│   │   ├── Extensions.swift              
+│   │   └── Helpers.swift                 
 │   │
 │   ├── Resources/
-│   │   ├── Assets.xcassets/              # Images, colors, icons
-│   │   ├── LaunchScreen.storyboard       # Launch screen
-│   │   └── Info.plist                    # App configuration
+│   │   ├── Assets.xcassets/              
+│   │   ├── LaunchScreen.storyboard       
+│   │   └── Info.plist                    
 │   │
 │   └── ML Models/
-│       └── FoodDetection.mlmodel         # Core ML model
+│       └── FoodDetection.mlmodel        
 │
 ├── README.md
 └── .gitignore
