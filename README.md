@@ -115,4 +115,4 @@ open FoodCal.xcodeproj
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Mở Pull Request
    
-<p align="center">Made with ❤️ in Vietnam</p>
+<p align="center">--- Made with ❤️ in Vietnam ---</p>
