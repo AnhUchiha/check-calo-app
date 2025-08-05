@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280007A92E41BF1C00F0C13D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 280007A82E41BF1400F0C13D /* .gitignore */; };
 		28F5BFE02E3BBB2900389216 /* TODO.md in Resources */ = {isa = PBXBuildFile; fileRef = 28F5BFDF2E3BBB2400389216 /* TODO.md */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		280007A82E41BF1400F0C13D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		28BF68132E3A2B1400CD438B /* FoodCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28BF68202E3A2B1600CD438B /* FoodCalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodCalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28BF682A2E3A2B1600CD438B /* FoodCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodCalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +82,7 @@
 		28BF680A2E3A2B1400CD438B = {
 			isa = PBXGroup;
 			children = (
+				280007A82E41BF1400F0C13D /* .gitignore */,
 				28F5BFDF2E3BBB2400389216 /* TODO.md */,
 				28BF68152E3A2B1400CD438B /* FoodCal */,
 				28BF68232E3A2B1600CD438B /* FoodCalTests */,
@@ -218,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280007A92E41BF1C00F0C13D /* .gitignore in Resources */,
 				28F5BFE02E3BBB2900389216 /* TODO.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,14 +409,15 @@
 				DEVELOPMENT_TEAM = SJ9Y32UBAP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "FoodCal needs access to your camera to scan and identify food items for nutritional analysis. This helps you track your daily nutrition intake accurately.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "FoodCal may use the microphone when recording videos of food items for better identification and analysis.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "FoodCal needs access to your photo library to analyze food images you've previously taken. This allows you to get nutritional information from existing photos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_NSCameraUsageDescription = "FoodCal needs access to your camera to scan and identify food items for nutritional analysis. This helps you track your daily nutrition intake accurately.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "FoodCal needs access to your photo library to analyze food images you've previously taken. This allows you to get nutritional information from existing photos.";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "FoodCal may use the microphone when recording videos of food items for better identification and analysis.";				LD_RUNPATH_SEARCH_PATHS = (
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
@@ -435,14 +440,15 @@
 				DEVELOPMENT_TEAM = SJ9Y32UBAP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "FoodCal needs access to your camera to scan and identify food items for nutritional analysis. This helps you track your daily nutrition intake accurately.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "FoodCal may use the microphone when recording videos of food items for better identification and analysis.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "FoodCal needs access to your photo library to analyze food images you've previously taken. This allows you to get nutritional information from existing photos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_NSCameraUsageDescription = "FoodCal needs access to your camera to scan and identify food items for nutritional analysis. This helps you track your daily nutrition intake accurately.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "FoodCal needs access to your photo library to analyze food images you've previously taken. This allows you to get nutritional information from existing photos.";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "FoodCal may use the microphone when recording videos of food items for better identification and analysis.";				LD_RUNPATH_SEARCH_PATHS = (
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
