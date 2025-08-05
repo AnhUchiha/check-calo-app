@@ -410,9 +410,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_NSCameraUsageDescription = "FoodCal needs access to your camera to scan and identify food items for nutritional analysis. This helps you track your daily nutrition intake accurately.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "FoodCal needs access to your photo library to analyze food images you've previously taken. This allows you to get nutritional information from existing photos.";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "FoodCal may use the microphone when recording videos of food items for better identification and analysis.";				LD_RUNPATH_SEARCH_PATHS = (
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
@@ -440,9 +438,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_NSCameraUsageDescription = "FoodCal needs access to your camera to scan and identify food items for nutritional analysis. This helps you track your daily nutrition intake accurately.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "FoodCal needs access to your photo library to analyze food images you've previously taken. This allows you to get nutritional information from existing photos.";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "FoodCal may use the microphone when recording videos of food items for better identification and analysis.";				LD_RUNPATH_SEARCH_PATHS = (
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
