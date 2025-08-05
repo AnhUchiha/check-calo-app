@@ -93,7 +93,7 @@ cd FoodCal
 open FoodCal.xcodeproj
 ```
 
-3. Chọn simulator hoặc device
+3. Chọn simulator là máy thật của bạn
 4. Build và chạy (⌘ + R)
 
 ## 📸 Screenshots
@@ -105,19 +105,6 @@ open FoodCal.xcodeproj
   <img src="Resources/screenshots/profile.png" width="200" alt="Profile">
 </p>
 
-## 🔑 API Keys
-
-Ứng dụng sử dụng API dinh dưỡng. Bạn cần đăng ký và lấy API key từ:
-- [Spoonacular API](https://spoonacular.com/food-api)
-- Hoặc [Edamam API](https://www.edamam.com/)
-
-Thêm API key vào `Constants.swift`:
-```swift
-struct APIConstants {
-    static let nutritionAPIKey = "YOUR_API_KEY_HERE"
-}
-```
-
 ## 🤝 Đóng góp
 
 Đây là project cá nhân nhưng mọi đóng góp đều được chào đón!
@@ -128,8 +115,4 @@ struct APIConstants {
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Mở Pull Request
    
-## 📧 Liên hệ
-
-- Email: atdevv2311@gmail.com
-
 <p align="center">Made with ❤️ in Vietnam</p>
